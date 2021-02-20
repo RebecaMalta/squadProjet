@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f1f1;
+  }
+
+  .logo {
+    position:fixed;
+    top: 10px;
+    left: 10px;
+  }
+
+  .titulo {
+    color: #f1f1f1;
+    position:relative;
+    top: 5px;
+    left: 65px;
+    font-weight: bold;
+  }
+
+  .name {
+    color: #f1f1f1;
+    margin-top: 5px;
+  }
+
+  #foto {
+    background: white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 7px 0px 5px 7px;
+    position:fixed;
+    bottom: 565px;
+    right: 90px;
+  }
+  
+  .login {
+    position: relative;
+    color: #8B8989;
+    width: 30px;
+    height: 2px;
+    font-weight: bold;
+  }
+
+  
+  /* Style the content */
+  .content {
+    background-image: linear-gradient(to right,#d44978, #c53691, #aa2278, #701c3b);
+    padding: 10px;
+    height: 50px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Style the footer */
+  .footer {
+    background-color: white;
+    width: 85%;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 50px;
+    border-radius: 10px;
+  }
+
+  .footer .squad {
+    background-image: linear-gradient(to right, #DB7093, #D02090, #C71585, #B03060);
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 0px !important;
+    margin-right: 70px !important;
+    border-radius: 10px;
+  }
+
+  .ml-px {
+    margin-left: 100px !important;
+  }
+
+  #icone {
+    background: #EEE9E9;
+    border-radius: 50%;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: black;
+    position: relative;
+    width: 90px;
+    height: 90px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .hidden {
+    display: none
+  }
+
+  #createTeam{
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: left;
+    padding-left: 20px;
+    font-weight: bold;
+    color: #aa2278;
+  }
+
+  .subtitulo{
+      text-align: center;
+      color: #CDC5BF;
+      font-weight: bold;
+      font-size: small;
+  }
+
+  label{
+    font-weight: bold;
+    font-size: small;
+  }
+
+  .result{
+    font-weight: bold;
+    font-size: small;
+  }

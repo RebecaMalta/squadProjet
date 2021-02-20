@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pt-br">
+   <head>
+      <title>Squad Management Tool</title>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link  rel="stylesheet" href="./css/principal.css">
+   </head>
+   <body>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script src="./js/principal.js"></script>
+      <div class="content">
+         <div class="row">
+            <div class="logo col-sm-1">
+               <img src="logo-venturus.png" alt="Squad Management Tool" width=30 height=30>
+            </div>
+            <div class="col-sm-10">
+               <h6 class="titulo">Squad Management Tool</h6>
+            </div>
+            <div class="col-sm-1">
+               <div class="form-group">
+                  <p class="name">John Doe</p>
+                     <div id="foto">
+                        <span class="login">JD</span>
+                     </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="painel">
+         <div class="row">
+            <div class="col-sm-6">
+               <div class="footer">
+                  <div class="row">
+                     <div class="col-sm-6">
+                        <h5 id="myTeams" name="myTeams">My Teams</h5>
+                     </div>
+                     <div class="col-sm-4">
+                     </div>
+                     <div class="col-sm-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="icon-plus" fill="currentColor" class="bi bi-plus-square" viewBox="0 0 16 16"
+                           onclick="addTeams()">
+                           <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                           <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                         </svg>
+                     </div>
+                  </div>
+                  <table class="table" tablename="tableTeams" id="tableTeams" name="tableTeams">
+                     <thead>
+                        <tr>
+                           <th class="titleColumn">Name</th>
+                           <th class="titleColumn">Description</th>
+                           <th></th>
+                        </tr>
+                     </thead>
+                     <tbody class="tableBody">
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+            <div class="col-sm-6">
+               <div class="footer">
+                  <div class="row">
+                     <div class="col-sm-6">
+                        <h5 id="topFive" name="topFive">Top 5</h5>
+                     </div>
+                     <div class="col-sm-4">
+                     </div>
+                     <div class="col-sm-2">
+                     </div>
+                     <hr width = 95%>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
